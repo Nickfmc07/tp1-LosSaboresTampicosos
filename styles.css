@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 header {
     width: 100%;
     background-color: #7000ff;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 20px 0;
     margin-bottom: 50px;
 }
@@ -24,12 +22,15 @@ header img {
 }
 
 header h1 {
-    margin-left: 5px;
-    margin-right: 400px;
+   margin-left: 20px;
+   margin-right: 750px;
     color: white;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
+nav {
+    padding-top: 10px;
+}
 nav li {
     display: inline-block;
     margin-left: 5px;
@@ -38,7 +39,7 @@ nav li {
 
 nav li a {
     font-size: 24px;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -72,18 +73,18 @@ main {
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 3%;
-    max-height: 680px;
+    max-height: 700px;
     min-width: 570px;
     border-style: solid;
     border-color: lightgray;
 }
 h2 {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
 main p {
     align-self: center;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     max-width: 550px;
     text-align:left;
     border-bottom: 4%;
@@ -101,7 +102,7 @@ footer {
 footer p {
     margin-left: 20px;
     align-items: center;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 footer img {
