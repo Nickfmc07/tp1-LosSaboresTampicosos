@@ -1,16 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-body, html {
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+header {
+    width: 100%;
+    background-color: #7000ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left:  15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    border-style: none;
+    zoom: 129%;
+}
+
+header h1 {
+    margin-left: 5px;
+    margin-right: 400px;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+nav li a {
+    font-size: 24px;
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(imgs/fundo-frutas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin: 0px;
 }
-header {
-    background-color: blue;
-    padding-top: 20px;
-    padding-left: 150px;
-    padding-bottom: 20px;
+
+main {
+    display: flex;
+    height: 800px;
+    justify-content: center;
 }
-header h1 {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    color: white;
-    font-family: Kanit;
+
+#definicao {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 3%;
+    max-height: 680px;
+    min-width: 570px;
+    border-style: solid;
+    border-color: lightgray;
+}
+h2 {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+}
+main p {
+    align-self: center;
+    font-family: 'Oxygen', sans-serif;
+    max-width: 550px;
+    text-align:left;
+    border-bottom: 4%;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 1em;
+    clear: right;
+    display: flex;
+    position: relative;
+    align-content: flex-end;
+}
+
+footer p {
+    margin-left: 20px;
+    align-items: center;
+    font-family: 'Oxygen', sans-serif;
+}
+
+footer img {
+    width: 50px;
+    justify-content: center;
+    border-radius: 25px;
+    margin-left:  15px;
 }
