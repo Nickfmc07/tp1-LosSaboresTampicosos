@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+header {
+    width: 100%;
+    background-color: #7000ff;
+    display: flex;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left:  15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 20px;
+    margin-right: 750px;
+     color: white;
+     font-family: 'Quicksand', sans-serif;
+} 
+
+nav {
+    padding-top: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+nav li a {
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(imgs/fundo-frutas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 300%;
+    margin-left: 44%; 
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cadrs h3 {
+    display: flex;
+    justify-content: center; 
+    font-size: 200%;
+    background-color: white;
+    padding: 15px 15px;
+    box-shadow: 6px 6px 10px #000;
+}
+
+.cadrs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cadrs p {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 15px 25px;
+    box-shadow: 6px 6px 10px #000;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 1em;
+    clear: right;
+    display: flex;
+    position: relative;
+    align-content: flex-end;
+    margin-top: 11.5%;
+}
+
+footer p {
+    margin-left: 20px;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer img {
+    width: 50px;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left:  15px;
+}

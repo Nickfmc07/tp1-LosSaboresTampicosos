@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+header {
+    width: 100%;
+    background-color: #7000ff;
+    display: flex;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left:  15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    border-style: none;
+    zoom: 129%;
+}
+
+header h1 {
+   margin-left: 20px;
+   margin-right: 750px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    padding-top: 10px;
+}
+nav li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+nav li a {
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(imgs/fundo-frutas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    height: 800px;
+    justify-content: center;
+}
+
+#definicao {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 3%;
+    max-height: 700px;
+    min-width: 570px;
+    border-style: solid;
+    border-color: lightgray;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+main p {
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 550px;
+    text-align:left;
+    border-bottom: 4%;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 1em;
+    clear: right;
+    display: flex;
+    position: relative;
+    align-content: flex-end;
+}
+
+footer p {
+    margin-left: 20px;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer img {
+    width: 50px;
+    justify-content: center;
+    border-radius: 25px;
+    margin-left:  15px;
+}
+nav a:hover {
+    background-color: rgba(255, 255, 0, 0.575);
+}
