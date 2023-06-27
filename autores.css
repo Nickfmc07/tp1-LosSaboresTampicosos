@@ -101,6 +101,7 @@ footer {
     display: flex;
     position: relative;
     align-content: flex-end;
+    margin-top: 11.5%;
 }
 
 footer p {
